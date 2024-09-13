@@ -1,0 +1,164 @@
+\o Program:		@(#)$CDS: libManager version 6.1.6 - CAT33 11/05/2015 10:33 (sjfql586) $
+\o Sub version:		sub-version  s019 
+\o Arguments:		-unmapped -mpssession virtuoso4340 -mpshost linap-v-04 
+\o Working Directory:	linap-v-04:/home/michaelsilveira/4609Design
+\o 64-bit offsets
+\o Qt version: 		4.7.2
+\o changeWorkingDir("/home/michaelsilveira/4609Design") unnecessary.
+\o ddSetForcedLib("") unnecessary.
+\o Log file is "/home/michaelsilveira/4609Design/libManager.log".
+\o Opening libManager window.
+\a nrSetWindowVisibility(cdsLibManager "show")
+\o MPS service: map window
+\a nrSetCurrentWindow(cdsLibManager)
+\o Library Manager customization server connected.
+\a nrResizeWindow(cdsLibManager list(1586 403 600 427))
+\a nrResizeWindow(cdsLibManager list(1730 709 600 427))
+\a cdsLibManager->libListBox->value = "CuSOiPDk_DEVICES"
+\a cdsLibManager->libLineEdit->value = "CuSOiPDk_DEVICES"
+\a cdsLibManager->cellListBox->value = "Double_T_Gate"
+\a cdsLibManager->cellListBox->value = "DCNT_FRAME"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellListBox->value = "ANOP_FRAME"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellListBox->value = "DCNT_FRAME"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellListBox->value = "DPRSG_Frame"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellListBox->value = "SPRSG_Frame"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellListBox->value = "DPRSG_Frame"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a nrListItemAction(cdsLibManager->cellListBox 3 0)
+\a cdsLibManager->cellListBox->value = "DPRSG_Frame"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\o MPS request: edit design
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "CuSOiPDk_DEVICES"
+\a cdsLibManager->libLineEdit->value = "CuSOiPDk_DEVICES"
+\a cdsLibManager->cellListBox->value = "DPRSG_Frame"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellLineEdit->value = "DPRSG_Frame"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->FileNewLibButton->value = t
+\a nrSetWindowVisibility(NewLibShell "show")
+\a NewLibShell->QLineEdit2->value = "/home/michaelsilveira/4609Design/"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(NewLibShell)
+\a nrSetCurrentWindow(NewLibShell->subDialog)
+\a nrResizeWindow(NewLibShell list(1777 694 507 559))
+\a NewLibShell->newLibNameText->value = "CuFab_Group_B3_MS"
+\a NewLibShell->newLibOKButton->value = t
+\a NewLibShell->subDialog->value = '("/home/michaelsilveira/4609Design" "/home/michaelsilveira/4609Design/")
+\a nrSetWindowVisibility(workingDialogForm "show")
+\a nrSetCurrentWindow(workingDialogForm)
+\o Created new library "CuFab_Group_B3_MS" at /home/michaelsilveira/4609Design/CuFab_Group_B3_MS.
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "CuSOiPDk_DEVICES"
+\a cdsLibManager->libLineEdit->value = "CuSOiPDk_DEVICES"
+\a cdsLibManager->cellListBox->value = "DPRSG_Frame"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a nrResizeWindow(workingDialogForm list(1 29 386 131))
+\a cdsLibManager->cellLineEdit->value = "DPRSG_Frame"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "CuSOiPDk_DEVICES"
+\a cdsLibManager->libLineEdit->value = "CuSOiPDk_DEVICES"
+\a cdsLibManager->cellListBox->value = "DPRSG_Frame"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a nrResizeWindow(cdsLibManager list(1730 709 749 652))
+\a nrResizeWindow(cdsLibManager list(1730 709 773 809))
+\a nrResizeWindow(cdsLibManager list(1730 709 817 866))
+\a nrResizeWindow(cdsLibManager list(1730 709 875 911))
+\a cdsLibManager->cellLineEdit->value = "DPRSG_Frame"
+\a cdsLibManager->libListBox->value = "CuFab_Group_B3_MS"
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "US_8ths"
+\a cdsLibManager->libListBox->value = "CuSOiPDk_DEVICES"
+\a cdsLibManager->libListBox->value = "CuFab_Group_B3_MS"
+\a cdsLibManager->libLineEdit->value = "CuFab_Group_B3_MS"
+\a lmgrLogShowPopup("mainListPopup1" 42 54 2 "")
+\a cdsLibManager->FileNewCVButton->value = t
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellLineEdit->value = "inverter"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "inverter_lab1"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "CuFab_Group_B3_MS"
+\a cdsLibManager->cellListBox->value = "inverter_lab1"
+\a cdsLibManager->cellLineEdit->value = "inverter_lab1"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a lmgrLogShowPopup("mainListPopup0" 67 3 2 "CuFab_Group_B3_MS")
+\a cdsLibManager->libLineEdit->value = "CuFab_Group_B3_MS"
+\a _lmgrCloseIconify("cdsLibManager" 1)
+\o MPS service: shutdown
+\o libManager is exiting.
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a exit(0)
